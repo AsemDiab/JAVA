@@ -1,0 +1,10 @@
+3160,since,50,teaching
+3162,Engneer,50,teaching
+3163,Engneer,50,teaching
+3160,since,50,teaching
+4070,law,1000,hole
+3161,since,54,jail
+3166,sincee,50,teaching
+3166,sincee,50,teaching
+1120,Enginner,59,teaching
+4070,Enginner,150,teaching
