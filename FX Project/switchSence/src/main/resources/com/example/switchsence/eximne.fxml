@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.switchsence.exmineFieldControll">
+   <children>
+      <Pane layoutX="3.0" layoutY="21.0" prefHeight="200.0" prefWidth="828.0" style="-fx-background-color: #f40040;">
+         <children>
+            <Pane fx:id="pane1" layoutX="16.0" layoutY="8.0" prefHeight="184.0" prefWidth="116.0" style="-fx-background-color: #ff00ff;" />
+            <Pane fx:id="pane2" layoutX="162.0" layoutY="8.0" prefHeight="184.0" prefWidth="116.0" style="-fx-background-color: #00ffff;" />
+            <Pane fx:id="pane3" layoutX="308.0" layoutY="8.0" prefHeight="184.0" prefWidth="116.0" style="-fx-background-color: #ff0000;" />
+            <Pane fx:id="pane4" layoutX="464.0" layoutY="8.0" prefHeight="184.0" prefWidth="116.0" style="-fx-background-color: #00ff00;" />
+            <Pane fx:id="pane5" layoutX="610.0" layoutY="8.0" prefHeight="184.0" prefWidth="116.0" style="-fx-background-color: #0000ff;" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

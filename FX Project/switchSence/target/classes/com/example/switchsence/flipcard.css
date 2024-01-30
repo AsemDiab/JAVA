@@ -1,0 +1,9 @@
+.Pane{
+-fx-background-color: #ff0000;
+-fx-background-radius:500 500 500 500 ;
+-fx-rotate:180deg
+}
+.Pane:hover{
+background-color: #00ff00;
+
+}

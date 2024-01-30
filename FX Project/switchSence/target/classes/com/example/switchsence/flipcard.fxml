@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="card" prefHeight="265.0" prefWidth="200.0" style="-fx-background-color: #ff00ff;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="imageview" fitHeight="266.0" fitWidth="200.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@NarotoRamen.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label" prefHeight="265.0" prefWidth="200.0" text="Label" />
+   </children>
+</Pane>

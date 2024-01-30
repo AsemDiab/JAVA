@@ -1,0 +1,12 @@
+#TextField{
+-fx-Background: transport;
+-fx-border-width:5px;
+-fx-background-color:#ff0000;
+-fx-border-style: dashed;
+}
+.TextField{
+ -fx-Background: transport;
+ -fx-border-width:5px;
+ -fx-background-color:#ff0000;
+ -fx-border-style: dashed;
+ }

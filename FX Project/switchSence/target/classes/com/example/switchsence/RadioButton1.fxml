@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.switchsence.RadioButtonControll">
+   <children>
+      <Label fx:id="label" layoutX="377.0" layoutY="36.0" prefHeight="98.0" prefWidth="165.0" text="Label" />
+      <ColorPicker fx:id="colorPicker" layoutX="175.0" layoutY="232.0" onAction="#clicked" />
+      <Group layoutX="76.0" layoutY="285.0" />
+      <RadioButton fx:id="image" layoutX="14.0" layoutY="36.0" mnemonicParsing="false" onAction="#clicked" prefHeight="213.0" prefWidth="141.0" text="image">
+         <toggleGroup>
+            <ToggleGroup fx:id="grop1" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="color" layoutX="19.0" layoutY="158.0" mnemonicParsing="false" onAction="#clicked" prefHeight="126.0" prefWidth="113.0" text="Color" toggleGroup="$grop1" />
+      <RadioButton fx:id="line" layoutX="18.0" layoutY="307.0" mnemonicParsing="false" onAction="#clicked" prefHeight="64.0" prefWidth="114.0" text="line" toggleGroup="$grop1" />
+   </children>
+</AnchorPane>

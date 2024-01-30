@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.switchsence.exmineFieldControll">
+   <children>
+      <ScrollPane layoutX="232.0" layoutY="93.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="600.0" />
+        </content>
+      </ScrollPane>
+      <Circle fx:id="circle" fill="DODGERBLUE" layoutX="210.0" layoutY="50.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="19.0" />
+      <TextField fx:id="searchField" layoutX="195.0" layoutY="12.0" prefHeight="20.0" prefWidth="210.0" style="-fx-background-radius: 50;" />
+      <Pane fx:id="side1" layoutX="10.0" layoutY="7.0" prefHeight="400.0" prefWidth="200.0" visible="false" AnchorPane.bottomAnchor="-0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="390.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ScrollPane layoutY="3.0" prefHeight="400.0" prefWidth="200.0" visible="false">
+               <content>
+                  <FlowPane alignment="CENTER_RIGHT" columnHalignment="RIGHT" prefHeight="362.0" prefWidth="170.0" vgap="10.0">
+                     <children>
+                        <Circle fx:id="backarrow2" fill="#1f93ff00" radius="10.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Label prefWidth="150.0" visible="false" />
+                        <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="45.0" prefWidth="170.0" text="Button">
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </Button>
+                        <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="45.0" prefWidth="170.0" text="Button" />
+                        <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="45.0" prefWidth="170.0" text="Button" />
+                        <Button alignment="TOP_LEFT" mnemonicParsing="false" onAction="#closeSub" prefHeight="45.0" prefWidth="170.0" text="closeSubManu" />
+                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="22.0" prefWidth="151.0" text="Button" />
+                        <Button mnemonicParsing="false" prefHeight="22.0" prefWidth="151.0" text="Button" />
+                        <Button mnemonicParsing="false" prefHeight="22.0" prefWidth="151.0" text="Button" textAlignment="CENTER" />
+                        <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="22.0" prefWidth="170.0" text="Button" />
+                        <Button mnemonicParsing="false" prefHeight="45.0" prefWidth="170.0" text="Button" />
+                     </children>
+                  </FlowPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </Pane>
+      <ImageView fitHeight="19.0" fitWidth="23.0" layoutX="-159.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane fx:id="side" layoutX="-159.0" layoutY="112.0" prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: #ff0000;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ScrollPane layoutY="36.0" prefHeight="364.0" prefWidth="200.0">
+               <content>
+                  <FlowPane columnHalignment="CENTER" prefHeight="362.0" prefWidth="170.0" vgap="10.0">
+                     <children>
+                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="20.0" prefWidth="150.0" text="Button" visible="false" />
+                        <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="45.0" prefWidth="191.0" text="Button" />
+                        <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="45.0" prefWidth="191.0" text="Button" />
+                        <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="45.0" prefWidth="191.0" text="Button" />
+                        <Button alignment="TOP_LEFT" mnemonicParsing="false" onAction="#openSub" prefHeight="45.0" prefWidth="186.0" text="openSubManu" />
+                        <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="45.0" prefWidth="186.0" text="Button" />
+                        <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="45.0" prefWidth="191.0" text="Button" />
+                        <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="20.0" prefWidth="150.0" text="Button" visible="false" />
+                     </children>
+                  </FlowPane>
+               </content>
+            </ScrollPane>
+            <Circle fx:id="backarrow1" fill="#1783e800" layoutX="24.0" layoutY="24.0" radius="10.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

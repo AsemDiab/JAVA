@@ -1,0 +1,6 @@
+.AnchorPane{
+-fx-border-style: inset;
+}
+.Pane{
+ -fx-border-style: inset;
+}

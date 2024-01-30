@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="640.0" style="-fx-background-color: linear-gradient(to bottom right,#043e52,#c9d3ec);" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.switchsence.HelloController">
+   <children>
+      <BorderPane layoutX="188.0" layoutY="92.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="82.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane prefHeight="39.0" prefWidth="696.0" style="-fx-background-color: linear-gradient(to bottom right,#FF7F50,#6A5ACD);" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fx:id="exit" fitHeight="34.0" fitWidth="25.0" layoutX="591.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../exit.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <HBox layoutX="160.0" layoutY="40.0" prefHeight="56.0" prefWidth="439.0" style="-fx-alignment: right;" AnchorPane.bottomAnchor="-0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="55.0" style="-fx-alignment: left;" textFill="#f4efef">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="26.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../home.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="47.0" prefWidth="39.0" style="-fx-alignment: left;" textFill="#f4efef">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="29.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../add.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="41.0" style="-fx-alignment: left;" textFill="#f4efef">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="29.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../setting.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="40.0" style="-fx-alignment: left;" textFill="#f4efef">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="29.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../data.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <Button fx:id="manuback" layoutX="3.0" layoutY="42.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="114.0" style="-fx-background-color: transport;" text="manu" textFill="#302e2e" AnchorPane.bottomAnchor="5.2" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="482.6" AnchorPane.topAnchor="42.00000000000001">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="39.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../burger.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="manu" layoutX="3.0" layoutY="42.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="114.0" style="-fx-background-color: transport;" text="manu" textFill="#302e2e" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="483.0" AnchorPane.topAnchor="42.0">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="39.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../burger.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane fx:id="slider" prefHeight="318.0" prefWidth="186.0" style="-fx-background-color: linear-gradient(to bottom right,#FF7F50,#6A5ACD);" BorderPane.alignment="TOP_LEFT">
+               <children>
+                  <VBox layoutY="-2.0" prefHeight="264.0" prefWidth="176.0" AnchorPane.topAnchor="53.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="142.0" style="-fx-alignment: left;" text="Dashboard" textFill="#f4efef">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="29.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../home.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="41.0" prefWidth="158.0" style="-fx-alignment: left;" text="ADD" textFill="#f4efef">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="29.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../add.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="170.0" style="-fx-alignment: left;" text="Setting" textFill="#f4efef">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="29.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../setting.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="170.0" style="-fx-alignment: left;" text="BackUp" textFill="#f4efef">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="29.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../data.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <HBox layoutX="1.0" prefHeight="43.0" prefWidth="130.0">
+                     <children>
+                        <ImageView fitHeight="41.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TabPane fx:id="tabPane" maxWidth="600.0" minWidth="200.0" prefHeight="303.0" prefWidth="460.0" style="-fx-background-color: transport;" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="Untitled Tab 1">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="458.0">
+                                 <children>
+                                    <Label layoutX="165.0" layoutY="93.0" prefHeight="73.0" prefWidth="106.0" text="Label1" />
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                      <Tab text="One Pieace MAnga">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="253.0" prefWidth="454.0">
+                                 <children>
+                                    <ScrollPane fx:id="scroll" prefHeight="378.0" prefWidth="446.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="0.0">
+                                       <content>
+                                          <FlowPane fx:id="contant" prefHeight="240.0" prefWidth="393.0" />
+                                       </content>
+                                    </ScrollPane>
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                    </tabs>
+                  </TabPane>
+                  <Circle fx:id="addIcon" centerX="375.0" centerY="250.0" fill="DODGERBLUE" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </Pane>
+         </center>
+         <right>
+            <Pane prefHeight="200.0" prefWidth="1.0" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+      <ImageView fitHeight="44.0" fitWidth="45.0" layoutX="-155.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

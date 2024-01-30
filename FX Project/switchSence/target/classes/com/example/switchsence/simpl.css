@@ -1,0 +1,41 @@
+#slider{
+-fx-background-color: linear-gradient(to bottom right,#FF7F50,#6A5ACD);
+}
+.button{
+-fx-background-color: Transport;
+-fx- font-weight: Bold  ;
+-fx-background-radius:500 500 500 500 ;
+-fx-font-size: 16;
+-fx-border-style: inset;
+-fx- text-fill-color: #000000 ;
+}
+.button:hover{
+-fx- font-weight: blod;
+-fx-background-color:#ffffff ;
+-fx-background-radius:500 500 500 500 ;
+-fx-font-size: 16;
+-fx-text-fill: linear-gradient(to bottom right,#FF7F50,#6A5ACD);
+-fx- border-color:#2196f3
+-fx-border-raduis: 200 200 200 200 ;
+-fx-border-width: 10;
+
+}
+.Pane:hover{
+-fx-background-color:#ffffff ;
+-fx- border-color:#2196f3
+-fx-border-raduis: 200 200 200 200 ;
+-fx-border-width: 10;
+
+}
+.button:armed{
+-fx- font-weight: blod;
+-fx-background-color:#ff0000 ;
+-fx-background-radius:500 500 500 500 ;
+-fx-font-size: 16;
+-fx-text-fill: linear-gradient(to bottom right,#FF7F50,#6A5ACD);
+-fx- border-color:#2196f3
+-fx-border-raduis: 200 200 200 200 ;
+-fx-border-width: 10;
+}
+#searchField
+  {-fx-background-image:url('https://cdn.iconscout.com/icon/free/png-512/search-158953.png'); -fx-background-repeat: no-repeat; -fx-background-position: right center; }
